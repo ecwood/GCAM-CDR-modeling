@@ -7,9 +7,9 @@ sudo apt update
 sudo apt -y install libboost-dev libboost-system-dev libboost-filesystem-dev libxerces-c-dev default-jre default-jdk git mlocate gcc g++ libtbb-dev make
 
 git clone https://github.com/JGCRI/gcam-core.git
-
+echo "CLONED"
 git checkout gcam-v6.0 # REPLACE WITH VERSION MODIFIER LATER --- THIS IS TEMPORARY
-
+echo "CHECKED OUT"
 mkdir libs
 cd libs
 
@@ -50,4 +50,5 @@ export EIGEN_INCLUDE=${HOME}/libs/eigen
 export TBB_INCLUDE=${HOME}/libs/tbb/include
 export TBB_LIB=${HOME}/libs/tbb/lib
 
-make gcam
+cd ~/gcam-core/
+make gcam -j 8
