@@ -32,12 +32,6 @@ mv eigen-3.4.0 eigen
 cd ~/gcam-core/
 make install_hector
 
-# TBB
-cd ~/libs/
-wget https://github.com/oneapi-src/oneTBB/releases/download/v2021.5.0/oneapi-tbb-2021.5.0-lin.tgz
-tar -xf oneapi-tbb-2021.5.0-lin.tgz
-mv oneapi-tbb-2021.5.0 tbb
-
 # Exports! - Pay attention to the Java ones because they are specific to Linux
 export CXX=g++
 export BOOST_INCLUDE=${HOME}/libs/boost-lib
