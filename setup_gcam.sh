@@ -4,12 +4,12 @@ cd ~
 
 sudo apt update
 
-sudo apt -y install libboost-dev libboost-system-dev libboost-filesystem-dev libxerces-c-dev default-jre default-jdk git mlocate gcc g++ libtbb-dev make
+sudo apt -y install libboost-dev libboost-system-dev libboost-filesystem-dev libxerces-c-dev default-jre default-jdk git mlocate gcc g++ libtbb-dev make binfmt-support
 
 git clone https://github.com/JGCRI/gcam-core.git
-echo "CLONED"
+cd gcam-core
 git checkout gcam-v6.0 # REPLACE WITH VERSION MODIFIER LATER --- THIS IS TEMPORARY
-echo "CHECKED OUT"
+cd ~
 mkdir libs
 cd libs
 
@@ -42,13 +42,20 @@ mv oneapi-tbb-2021.5.0 tbb
 export CXX=g++
 export BOOST_INCLUDE=${HOME}/libs/boost-lib
 export BOOST_LIB=${HOME}/libs/boost-lib/stage/lib
-export JARS_LIB=${HOME}/libs/jars/*
+export CLASSPATH=${HOME}/libs/jars/*:${HOME}/GCAM/gcam-core/output/modelInterface/Modelinterface.jar
+export JARS_LIB=${HOME}/libs/jars/*:${HOME}/GCAM/gcam-core/output/modelInterface/Modelinterface.jar
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export JAVA_INCLUDE=${JAVA_HOME}/include
 export JAVA_LIB=${JAVA_HOME}/lib/server
 export EIGEN_INCLUDE=${HOME}/libs/eigen
 export TBB_INCLUDE=${HOME}/libs/tbb/include
 export TBB_LIB=${HOME}/libs/tbb/lib
+
+# To get Model Interface working
+cd ~/gcam-core/output/modelinterface
+git clone https://github.com/JGCRI/modelinterface/releases/download/v5.1/ModelInterface.zip
+unzip ModelInterface.zip
+chmod a+rx ModelInterface.jar
 
 cd ~/gcam-core/
 make gcam -j 8
