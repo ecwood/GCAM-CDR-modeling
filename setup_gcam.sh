@@ -21,7 +21,12 @@ sudo apt -y install libboost-dev \
 					make \
 					binfmt-support \
 					unzip \
-					screen
+					screen \
+					r-base-core \
+					r-cran-devtools \
+					libcurl4-openssl-dev \
+					libssl-dev \
+					libxml2-dev
 
 git clone https://github.com/JGCRI/gcam-core.git
 cd gcam-core
@@ -78,13 +83,11 @@ sed -i "s/#define DEBUG_XML_DB 0/#define DEBUG_XML_DB 1/" xml_db_outputter.cpp
 cd ~/gcam-core/
 make gcam -j 8
 
-# Download Model XML Files (Use Windows Package Workaround)
-cd ~
-mkdir gcam-core-windows-temp
-cd gcam-core-windows-temp
-wget https://github.com/JGCRI/gcam-core/releases/download/gcam-v6.0/gcam-v6.0-Windows-Release-Package.zip
-unzip gcam-v6.0-Windows-Release-Package.zip
-mv input/gcamdata/xml ~/gcam-core/input/gcamdata
+# Download Model XML Files
+sudo chmod a+w /usr/local/lib/R/site-library/
+Rscript -e "install.packages('tidyverse')"
+cd ~/gcam-core/
+make xml
 
 cd ~/gcam-core/exe/
 ./gcam.exe -C configuration_ref.xml
