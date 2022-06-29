@@ -1,10 +1,27 @@
 #!/bin/bash
 
+echo "=================== setup_gcam.sh STARTING ==================="
+date
+
 cd ~
 
 sudo apt update
 
-sudo apt -y install libboost-dev libboost-system-dev libboost-filesystem-dev libxerces-c-dev default-jre default-jdk git mlocate gcc g++ libtbb-dev make binfmt-support
+sudo apt -y install libboost-dev \
+					libboost-system-dev \
+					libboost-filesystem-dev \
+					libxerces-c-dev \
+					default-jre \
+					default-jdk \
+					git \
+					mlocate \
+					gcc \
+					g++ \
+					libtbb-dev \
+					make \
+					binfmt-support \
+					unzip \
+					screen
 
 git clone https://github.com/JGCRI/gcam-core.git
 cd gcam-core
@@ -47,9 +64,30 @@ export TBB_LIB=${HOME}/libs/tbb/lib
 
 # To get Model Interface working
 cd ~/gcam-core/output/modelinterface
-git clone https://github.com/JGCRI/modelinterface/releases/download/v5.1/ModelInterface.zip
+wget https://github.com/JGCRI/modelinterface/releases/download/v5.1/ModelInterface.zip
 unzip ModelInterface.zip
+mv ModelInterface/* .
 chmod a+rx ModelInterface.jar
+cp -r jars/ ~/libs/
 
+# Use `sed` to set a parameter so that the data is output into XML for us
+cd ~/gcam-core/cvs/objects/reporting/source/
+sed -i "s/#define DEBUG_XML_DB 0/#define DEBUG_XML_DB 1/" xml_db_outputter.cpp
+
+# Compile GCAM
 cd ~/gcam-core/
 make gcam -j 8
+
+# Download Model XML Files (Use Windows Package Workaround)
+cd ~
+mkdir gcam-core-windows-temp
+cd gcam-core-windows-temp
+wget https://github.com/JGCRI/gcam-core/releases/download/gcam-v6.0/gcam-v6.0-Windows-Release-Package.zip
+unzip gcam-v6.0-Windows-Release-Package.zip
+mv input/gcamdata/xml ~/gcam-core/input/gcamdata
+
+cd ~/gcam-core/exe/
+./gcam.exe -C configuration_ref.xml
+
+date
+echo "=================== setup_gcam.sh FINISHED ==================="
