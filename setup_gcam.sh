@@ -86,6 +86,10 @@ make gcam -j 8
 # Download Model XML Files
 sudo chmod a+w /usr/local/lib/R/site-library/
 Rscript -e "install.packages('tidyverse')"
+Rscript -e "install.packages('drake')"
+sed -i 's/write_output=FALSE, //g' ~/gcam-core/Makefile
+sed -i 's/driver/driver_drake/g' ~/gcam-core/Makefile
+sed -i 's/USE_DRIVER_DRAKE <- FALSE/USE_DRIVER_DRAKE <- TRUE/' ~/gcam-core/input/gcamdata/data-raw/generate_package_data.R
 cd ~/gcam-core/
 make xml
 
