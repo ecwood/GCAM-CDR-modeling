@@ -38,4 +38,5 @@ if __name__ == '__main__':
 	input_file = args.inputFile
 	input_dict = parse_file(input_file)
 	pathways = list(set(generate_file_pathways(input_dict, '')))
+	pathways.sort()
 	print(json.dumps(pathways, indent=4, sort_keys=True))
