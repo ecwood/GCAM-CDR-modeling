@@ -26,7 +26,10 @@ sudo apt -y install libboost-dev \
 					r-cran-devtools \
 					libcurl4-openssl-dev \
 					libssl-dev \
-					libxml2-dev
+					libxml2-dev \
+					python3-pip
+
+pip3 install xmltodict
 
 git clone https://github.com/JGCRI/gcam-core.git
 cd gcam-core
