@@ -86,7 +86,7 @@ sed -i "s/#define DEBUG_XML_DB 0/#define DEBUG_XML_DB 1/" xml_db_outputter.cpp
 cd ~/gcam-core/
 make gcam -j 8
 
-# Download Model XML Files
+# Compile XML files
 sudo chmod a+w /usr/local/lib/R/site-library/
 Rscript -e "install.packages('tidyverse')"
 Rscript -e "install.packages('drake')"
