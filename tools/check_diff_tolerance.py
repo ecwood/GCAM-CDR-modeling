@@ -18,11 +18,10 @@ TOLERATED = 'Tolerated'
 
 NOT_A_NUM = 'NOT_A_NUMBER_CODE'
 
-# 1440826,1440827c1440826,1440827
-
 def get_args():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('inputFile', type=str)
+	parser.add_argument('outputFile', type=str)
 	return parser.parse_args()
 
 def get_line_type(line):
@@ -114,4 +113,5 @@ if __name__ == '__main__':
 		diffs_check = unwind_diffs(item, blue_diff, red_diff)
 		if diffs_check != TOLERATED:
 			diff_file_dict_dup[item] = diffs_check
-	print(json.dumps(diff_file_dict_dup, indent=4, sort_keys=True))
+	with open(args.outputFile) as output_file:
+		output_file.write(json.dumps(diff_file_dict_dup, indent=4, sort_keys=True))
