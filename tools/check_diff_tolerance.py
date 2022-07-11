@@ -1,19 +1,24 @@
 import argparse
 import json
 
+# Red is the first listed file in the diff
+# Blue is the second listed file when performing the diff
+
 RED_LINE = 1
 BLUE_LINE = 2
 BREAK_LINE = 3
 INTRO_LINE = 4
 
 STARTING_INTRO = 'starting_intro'
-BLUE_LINE_KEY = 'blue'
-RED_LINE_KEY = 'red'
+BLUE_LINE_KEY = 'File 2'
+RED_LINE_KEY = 'File 1'
 
 TOLERANCE = 0.1
 TOLERATED = 'Tolerated'
 
 NOT_A_NUM = 'NOT_A_NUMBER_CODE'
+
+# 1440826,1440827c1440826,1440827
 
 def get_args():
 	parser = argparse.ArgumentParser()
@@ -93,7 +98,7 @@ def unwind_diffs(item, blue_diff, red_diff):
 		else:
 			tolerated = True
 		if tolerated == False:
-			entry = {'Blue Value': blue_item[0], 'Red Value': red_item[0]}
+			entry = {BLUE_LINE_KEY: blue_item[0], RED_LINE_KEY: red_item[0]}
 			return_list.append(entry)
 	if len(return_list) == 0:
 		return TOLERATED
