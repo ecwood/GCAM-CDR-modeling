@@ -1,0 +1,262 @@
+# File: regional_dac.csv
+# Title: Yearly values for each regions DAC deployment
+# Units: MtC
+# Column types: ccin
+# ----------
+region,type,year,value
+USA,hightemp DAC NG,2025,1000
+Africa_Eastern,hightemp DAC NG,2025,0
+Africa_Northern,hightemp DAC NG,2025,0
+Africa_Southern,hightemp DAC NG,2025,0
+Africa_Western,hightemp DAC NG,2025,0
+Australia_NZ,hightemp DAC NG,2025,0
+Brazil,hightemp DAC NG,2025,0
+Canada,hightemp DAC NG,2025,0
+Central America and Caribbean,hightemp DAC NG,2025,0
+Central Asia,hightemp DAC NG,2025,0
+China,hightemp DAC NG,2025,0
+EU-12,hightemp DAC NG,2025,0
+EU-15,hightemp DAC NG,2025,0
+Europe_Eastern,hightemp DAC NG,2025,0
+Europe_Non_EU,hightemp DAC NG,2025,0
+European Free Trade Association,hightemp DAC NG,2025,0
+India,hightemp DAC NG,2025,0
+Indonesia,hightemp DAC NG,2025,0
+Japan,hightemp DAC NG,2025,0
+Mexico,hightemp DAC NG,2025,0
+Middle East,hightemp DAC NG,2025,0
+Pakistan,hightemp DAC NG,2025,0
+Russia,hightemp DAC NG,2025,0
+South Africa,hightemp DAC NG,2025,0
+South America_Northern,hightemp DAC NG,2025,0
+South America_Southern,hightemp DAC NG,2025,0
+South Asia,hightemp DAC NG,2025,0
+South Korea,hightemp DAC NG,2025,0
+Southeast Asia,hightemp DAC NG,2025,0
+Taiwan,hightemp DAC NG,2025,0
+Argentina,hightemp DAC NG,2025,0
+Colombia,hightemp DAC NG,2025,0
+USA,hightemp DAC NG,2030,1000
+Africa_Eastern,hightemp DAC NG,2030,0
+Africa_Northern,hightemp DAC NG,2030,0
+Africa_Southern,hightemp DAC NG,2030,0
+Africa_Western,hightemp DAC NG,2030,0
+Australia_NZ,hightemp DAC NG,2030,0
+Brazil,hightemp DAC NG,2030,0
+Canada,hightemp DAC NG,2030,0
+Central America and Caribbean,hightemp DAC NG,2030,0
+Central Asia,hightemp DAC NG,2030,0
+China,hightemp DAC NG,2030,0
+EU-12,hightemp DAC NG,2030,0
+EU-15,hightemp DAC NG,2030,0
+Europe_Eastern,hightemp DAC NG,2030,0
+Europe_Non_EU,hightemp DAC NG,2030,0
+European Free Trade Association,hightemp DAC NG,2030,0
+India,hightemp DAC NG,2030,0
+Indonesia,hightemp DAC NG,2030,0
+Japan,hightemp DAC NG,2030,0
+Mexico,hightemp DAC NG,2030,0
+Middle East,hightemp DAC NG,2030,0
+Pakistan,hightemp DAC NG,2030,0
+Russia,hightemp DAC NG,2030,0
+South Africa,hightemp DAC NG,2030,0
+South America_Northern,hightemp DAC NG,2030,0
+South America_Southern,hightemp DAC NG,2030,0
+South Asia,hightemp DAC NG,2030,0
+South Korea,hightemp DAC NG,2030,0
+Southeast Asia,hightemp DAC NG,2030,0
+Taiwan,hightemp DAC NG,2030,0
+Argentina,hightemp DAC NG,2030,0
+Colombia,hightemp DAC NG,2030,0
+USA,hightemp DAC elec,2025,1000
+Africa_Eastern,hightemp DAC elec,2025,0
+Africa_Northern,hightemp DAC elec,2025,0
+Africa_Southern,hightemp DAC elec,2025,0
+Africa_Western,hightemp DAC elec,2025,0
+Australia_NZ,hightemp DAC elec,2025,0
+Brazil,hightemp DAC elec,2025,0
+Canada,hightemp DAC elec,2025,0
+Central America and Caribbean,hightemp DAC elec,2025,0
+Central Asia,hightemp DAC elec,2025,0
+China,hightemp DAC elec,2025,0
+EU-12,hightemp DAC elec,2025,0
+EU-15,hightemp DAC elec,2025,0
+Europe_Eastern,hightemp DAC elec,2025,0
+Europe_Non_EU,hightemp DAC elec,2025,0
+European Free Trade Association,hightemp DAC elec,2025,0
+India,hightemp DAC elec,2025,0
+Indonesia,hightemp DAC elec,2025,0
+Japan,hightemp DAC elec,2025,0
+Mexico,hightemp DAC elec,2025,0
+Middle East,hightemp DAC elec,2025,0
+Pakistan,hightemp DAC elec,2025,0
+Russia,hightemp DAC elec,2025,0
+South Africa,hightemp DAC elec,2025,0
+South America_Northern,hightemp DAC elec,2025,0
+South America_Southern,hightemp DAC elec,2025,0
+South Asia,hightemp DAC elec,2025,0
+South Korea,hightemp DAC elec,2025,0
+Southeast Asia,hightemp DAC elec,2025,0
+Taiwan,hightemp DAC elec,2025,0
+Argentina,hightemp DAC elec,2025,0
+Colombia,hightemp DAC elec,2025,0
+USA,hightemp DAC elec,2030,1000
+Africa_Eastern,hightemp DAC elec,2030,0
+Africa_Northern,hightemp DAC elec,2030,0
+Africa_Southern,hightemp DAC elec,2030,0
+Africa_Western,hightemp DAC elec,2030,0
+Australia_NZ,hightemp DAC elec,2030,0
+Brazil,hightemp DAC elec,2030,0
+Canada,hightemp DAC elec,2030,0
+Central America and Caribbean,hightemp DAC elec,2030,0
+Central Asia,hightemp DAC elec,2030,0
+China,hightemp DAC elec,2030,0
+EU-12,hightemp DAC elec,2030,0
+EU-15,hightemp DAC elec,2030,0
+Europe_Eastern,hightemp DAC elec,2030,0
+Europe_Non_EU,hightemp DAC elec,2030,0
+European Free Trade Association,hightemp DAC elec,2030,0
+India,hightemp DAC elec,2030,0
+Indonesia,hightemp DAC elec,2030,0
+Japan,hightemp DAC elec,2030,0
+Mexico,hightemp DAC elec,2030,0
+Middle East,hightemp DAC elec,2030,0
+Pakistan,hightemp DAC elec,2030,0
+Russia,hightemp DAC elec,2030,0
+South Africa,hightemp DAC elec,2030,0
+South America_Northern,hightemp DAC elec,2030,0
+South America_Southern,hightemp DAC elec,2030,0
+South Asia,hightemp DAC elec,2030,0
+South Korea,hightemp DAC elec,2030,0
+Southeast Asia,hightemp DAC elec,2030,0
+Taiwan,hightemp DAC elec,2030,0
+Argentina,hightemp DAC elec,2030,0
+Colombia,hightemp DAC elec,2030,0
+USA,hightemp DAC elec,2025,1000
+Africa_Eastern,hightemp DAC elec,2025,0
+Africa_Northern,hightemp DAC elec,2025,0
+Africa_Southern,hightemp DAC elec,2025,0
+Africa_Western,hightemp DAC elec,2025,0
+Australia_NZ,hightemp DAC elec,2025,0
+Brazil,hightemp DAC elec,2025,0
+Canada,hightemp DAC elec,2025,0
+Central America and Caribbean,hightemp DAC elec,2025,0
+Central Asia,hightemp DAC elec,2025,0
+China,hightemp DAC elec,2025,0
+EU-12,hightemp DAC elec,2025,0
+EU-15,hightemp DAC elec,2025,0
+Europe_Eastern,hightemp DAC elec,2025,0
+Europe_Non_EU,hightemp DAC elec,2025,0
+European Free Trade Association,hightemp DAC elec,2025,0
+India,hightemp DAC elec,2025,0
+Indonesia,hightemp DAC elec,2025,0
+Japan,hightemp DAC elec,2025,0
+Mexico,hightemp DAC elec,2025,0
+Middle East,hightemp DAC elec,2025,0
+Pakistan,hightemp DAC elec,2025,0
+Russia,hightemp DAC elec,2025,0
+South Africa,hightemp DAC elec,2025,0
+South America_Northern,hightemp DAC elec,2025,0
+South America_Southern,hightemp DAC elec,2025,0
+South Asia,hightemp DAC elec,2025,0
+South Korea,hightemp DAC elec,2025,0
+Southeast Asia,hightemp DAC elec,2025,0
+Taiwan,hightemp DAC elec,2025,0
+Argentina,hightemp DAC elec,2025,0
+Colombia,hightemp DAC elec,2025,0
+USA,hightemp DAC elec,2030,1000
+Africa_Eastern,hightemp DAC elec,2030,0
+Africa_Northern,hightemp DAC elec,2030,0
+Africa_Southern,hightemp DAC elec,2030,0
+Africa_Western,hightemp DAC elec,2030,0
+Australia_NZ,hightemp DAC elec,2030,0
+Brazil,hightemp DAC elec,2030,0
+Canada,hightemp DAC elec,2030,0
+Central America and Caribbean,hightemp DAC elec,2030,0
+Central Asia,hightemp DAC elec,2030,0
+China,hightemp DAC elec,2030,0
+EU-12,hightemp DAC elec,2030,0
+EU-15,hightemp DAC elec,2030,0
+Europe_Eastern,hightemp DAC elec,2030,0
+Europe_Non_EU,hightemp DAC elec,2030,0
+European Free Trade Association,hightemp DAC elec,2030,0
+India,hightemp DAC elec,2030,0
+Indonesia,hightemp DAC elec,2030,0
+Japan,hightemp DAC elec,2030,0
+Mexico,hightemp DAC elec,2030,0
+Middle East,hightemp DAC elec,2030,0
+Pakistan,hightemp DAC elec,2030,0
+Russia,hightemp DAC elec,2030,0
+South Africa,hightemp DAC elec,2030,0
+South America_Northern,hightemp DAC elec,2030,0
+South America_Southern,hightemp DAC elec,2030,0
+South Asia,hightemp DAC elec,2030,0
+South Korea,hightemp DAC elec,2030,0
+Southeast Asia,hightemp DAC elec,2030,0
+Taiwan,hightemp DAC elec,2030,0
+Argentina,hightemp DAC elec,2030,0
+Colombia,hightemp DAC elec,2030,0
+USA,lowtemp DAC heatpump,2025,1000
+Africa_Eastern,lowtemp DAC heatpump,2025,0
+Africa_Northern,lowtemp DAC heatpump,2025,0
+Africa_Southern,lowtemp DAC heatpump,2025,0
+Africa_Western,lowtemp DAC heatpump,2025,0
+Australia_NZ,lowtemp DAC heatpump,2025,0
+Brazil,lowtemp DAC heatpump,2025,0
+Canada,lowtemp DAC heatpump,2025,0
+Central America and Caribbean,lowtemp DAC heatpump,2025,0
+Central Asia,lowtemp DAC heatpump,2025,0
+China,lowtemp DAC heatpump,2025,0
+EU-12,lowtemp DAC heatpump,2025,0
+EU-15,lowtemp DAC heatpump,2025,0
+Europe_Eastern,lowtemp DAC heatpump,2025,0
+Europe_Non_EU,lowtemp DAC heatpump,2025,0
+European Free Trade Association,lowtemp DAC heatpump,2025,0
+India,lowtemp DAC heatpump,2025,0
+Indonesia,lowtemp DAC heatpump,2025,0
+Japan,lowtemp DAC heatpump,2025,0
+Mexico,lowtemp DAC heatpump,2025,0
+Middle East,lowtemp DAC heatpump,2025,0
+Pakistan,lowtemp DAC heatpump,2025,0
+Russia,lowtemp DAC heatpump,2025,0
+South Africa,lowtemp DAC heatpump,2025,0
+South America_Northern,lowtemp DAC heatpump,2025,0
+South America_Southern,lowtemp DAC heatpump,2025,0
+South Asia,lowtemp DAC heatpump,2025,0
+South Korea,lowtemp DAC heatpump,2025,0
+Southeast Asia,lowtemp DAC heatpump,2025,0
+Taiwan,lowtemp DAC heatpump,2025,0
+Argentina,lowtemp DAC heatpump,2025,0
+Colombia,lowtemp DAC heatpump,2025,0
+USA,lowtemp DAC heatpump,2030,1000
+Africa_Eastern,lowtemp DAC heatpump,2030,0
+Africa_Northern,lowtemp DAC heatpump,2030,0
+Africa_Southern,lowtemp DAC heatpump,2030,0
+Africa_Western,lowtemp DAC heatpump,2030,0
+Australia_NZ,lowtemp DAC heatpump,2030,0
+Brazil,lowtemp DAC heatpump,2030,0
+Canada,lowtemp DAC heatpump,2030,0
+Central America and Caribbean,lowtemp DAC heatpump,2030,0
+Central Asia,lowtemp DAC heatpump,2030,0
+China,lowtemp DAC heatpump,2030,0
+EU-12,lowtemp DAC heatpump,2030,0
+EU-15,lowtemp DAC heatpump,2030,0
+Europe_Eastern,lowtemp DAC heatpump,2030,0
+Europe_Non_EU,lowtemp DAC heatpump,2030,0
+European Free Trade Association,lowtemp DAC heatpump,2030,0
+India,lowtemp DAC heatpump,2030,0
+Indonesia,lowtemp DAC heatpump,2030,0
+Japan,lowtemp DAC heatpump,2030,0
+Mexico,lowtemp DAC heatpump,2030,0
+Middle East,lowtemp DAC heatpump,2030,0
+Pakistan,lowtemp DAC heatpump,2030,0
+Russia,lowtemp DAC heatpump,2030,0
+South Africa,lowtemp DAC heatpump,2030,0
+South America_Northern,lowtemp DAC heatpump,2030,0
+South America_Southern,lowtemp DAC heatpump,2030,0
+South Asia,lowtemp DAC heatpump,2030,0
+South Korea,lowtemp DAC heatpump,2030,0
+Southeast Asia,lowtemp DAC heatpump,2030,0
+Taiwan,lowtemp DAC heatpump,2030,0
+Argentina,lowtemp DAC heatpump,2030,0
+Colombia,lowtemp DAC heatpump,2030,0
