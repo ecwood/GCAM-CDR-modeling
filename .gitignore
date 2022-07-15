@@ -2,3 +2,6 @@
 *.json
 *.log
 *.var
+__pycache__/
+*.pickle
+*.zip
