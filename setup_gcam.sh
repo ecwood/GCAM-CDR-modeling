@@ -96,6 +96,10 @@ sed -i 's/USE_DRIVER_DRAKE <- FALSE/USE_DRIVER_DRAKE <- TRUE/' ~/gcam-core/input
 cd ~/gcam-core/
 make xml
 
+# With help from https://superuser.com/questions/513412/how-to-match-digits-followed-by-a-dot-using-sed
+# Addressing issue #17
+sed -i "s/<max-model-calcs>[0-9]\+/<max-model-calcs>5000/g" ~/gcam-core/input/solution/cal_broyden_config.xml
+
 cd ~/gcam-core/exe/
 ./gcam.exe -C configuration_ref.xml
 
