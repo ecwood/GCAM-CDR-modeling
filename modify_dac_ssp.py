@@ -29,7 +29,10 @@ def edit_file(xml_dict, new_data):
 	region_index = 0
 	for region in xml_dict['scenario']['world']['region']:
 		sector_index = 0
-		regional_data = new_data[region['@name']]
+		regional_data = new_data.get(region['@name'], {})
+		if len(regional_data) == 0:
+			region_index += 1
+			continue
 		for sector in region['supplysector']:
 			if sector['@name'] == "CO2 removal":
 				for tech in xml_dict['scenario']['world']['region'][region_index]['supplysector'][sector_index]['subsector']['stub-technology']:
@@ -37,9 +40,16 @@ def edit_file(xml_dict, new_data):
 					tech_data = regional_data.get(tech_name, {})
 					if tech_data == {}:
 						continue
-					tech['period'] = []
-					for year in tech_data:
-						tech['period'].append(gcamify_fixedoutput(year, tech_data[year]))
+					if tech.get('period', None) == None:
+						tech['period'] = []
+						for year in tech_data:
+							tech['period'].append(gcamify_fixedoutput(year, tech_data[year]))
+					else:
+						for period in tech['period']:
+							for year in tech_data:
+								if year == period['@year']:
+									period['fixedOutput'] = tech_data[year]
+									period['share-weight'] = 0
 			sector_index += 1
 		region_index += 1
 	return xml_dict
@@ -81,5 +91,4 @@ if __name__ == '__main__':
 	csv_load = read_csv(args.inputCSVFile)
 	processed_csv_dict = process_csv(csv_load)
 	xml_dict = edit_file(xml_dict, processed_csv_dict)
-	print(json.dumps(xml_dict, indent=4, sort_keys=True))
 	save_xml(xml_dict, args.outputFile)

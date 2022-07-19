@@ -2,6 +2,13 @@ import xmltodict
 import argparse
 import json
 
+HEADER = '''# File: dac_usa.csv
+# Title: Yearly values for each regions DAC deployment
+# Units: MtC
+# Column types: ccin
+# ----------'''
+
+
 def get_args():
 	parser = argparse.ArgumentParser()
 	parser.add_argument('inputPotentialsFile', type=str)
@@ -63,9 +70,33 @@ def set_state_levels(dac_potentials, policy):
 			state_levels[state][year] = policy[year] * potential
 	return state_levels
 
+def reorganize_levels_into_csv(state_levels):
+	lowtemp_DAC_heatpump = "lowtemp DAC heatpump"
+	hightemp_DAC_elec = "hightemp DAC elec"
+	hightemp_DAC_NG = "hightemp DAC NG"
+	csv_list = []
+	csv_list.append(["region","type","year","value"])
+	for state in state_levels:
+		for year in state_levels[state]:
+			line_lowtemp_DAC_heatpump = [state, lowtemp_DAC_heatpump, str(year), str(state_levels[state][year])]
+			line_hightemp_DAC_elec = [state, hightemp_DAC_elec, str(year), str(0)]
+			line_hightemp_DAC_NG = [state, hightemp_DAC_NG, str(year), str(0)]
+			csv_list.append(line_lowtemp_DAC_heatpump)
+			csv_list.append(line_hightemp_DAC_elec)
+			csv_list.append(line_hightemp_DAC_NG)
+	return csv_list
+
+def save_csv(header, csv_list, output_file):
+	outstring = header + '\n'
+	for line in csv_list:
+		outstring += ','.join(line) + '\n'
+	with open(output_file, 'w') as output_csv:
+		output_csv.write(outstring.strip())
+
 if __name__ == '__main__':
 	args = get_args()
 	dac_potential_ratios = read_json(args.inputPotentialsFile)
 	policy = organize_csv(read_csv(args.inputPolicyFile))
 	state_levels = set_state_levels(dac_potential_ratios, policy)
-	save_json(state_levels, args.outputFile)
+	csv_levels = reorganize_levels_into_csv(state_levels)
+	save_csv(HEADER, csv_levels, args.outputFile)
