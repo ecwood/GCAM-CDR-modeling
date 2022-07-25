@@ -67,5 +67,7 @@ if __name__ == '__main__':
 					pickle.dump(filedict, pickle_out)
 	print("Data Loaded at " + str(get_date()))
 	with open(output_file, 'w') as out_json:
-		out_json.write(json.dumps(get_CO2_removed(filedict), indent=4, sort_keys=True))
+		co2_removed = get_CO2_removed(filedict)
+		temperature = get_temperature(filedict)
+		out_json.write(json.dumps({"CO2 Removed": co2_removed, "Temperature": temperature}, indent=4, sort_keys=True))
 	print(get_date())
