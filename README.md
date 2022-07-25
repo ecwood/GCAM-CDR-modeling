@@ -1,4 +1,5 @@
-# Setup Instructions
+# GCAM for CDR Policy Deployment Documentation
+## Setup Instructions
 Instance Requirements:
  - `r5a.4xlarge` (for full capabilities) with `45GB` of disk space
  - `m5a.2xlarge` (for build capabilities only)
@@ -15,7 +16,7 @@ Instance Requirements:
 
 6. Ctrl-A, Ctrl-D
 
-# GCAM Basics
+## GCAM Basics
 Important GCAM Repositories:
  - [gcam-core](https://github.com/JGCRI/gcam-core)
    - Full repository for GCAM
@@ -27,7 +28,7 @@ Important GCAM Repositories:
    - This includes all of the CSV files and R scripts to compile the GCAM XML files
 
 
-# Process GCAM Output
+## Process GCAM Output
 Runtimes:
  - From scratch: ~17 minutes
  - From pickle file: ~2 minutes
