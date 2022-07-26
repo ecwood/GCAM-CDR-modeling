@@ -54,9 +54,23 @@ def format_constraint(year, year_data):
 		dac_sum += float(year_data[item])
 	return {'#text': str(dac_sum), '@year': year}
 
+def format_period(year):
+	return {'period': {'@year': year, 'input-tax': {'@name': 'DAC-lower-bound'}}}
+
 def format_regional_policy(region, region_data):
 	constraints = [format_constraint(year, region_data[year]) for year in region_data]
-	return {'@name': region, "policy-portfolio-standard": {'@name': "DAC-floor", 'constraint': constraints}}
+	periods = [format_period(year) for year in region_data]
+	supplysector = {'@name': 'CO2 removal',
+					'subsector': {'@name': 'dac',
+								  'technology': {'@name': 'lowtemp DAC heatpump',
+								  				 'period': periods}}}
+	return {'@name': region,
+			"policy-portfolio-standard": {'@name': "DAC-lower-bound",
+										  'constraint': constraints,
+										  'market': 'USA',
+										  'policyType': 'subsidy'},
+			'supplysector': supplysector
+			}
 
 def format_policy_file(csv_data):
 	regions = [format_regional_policy(region, csv_data[region]) for region in csv_data]
