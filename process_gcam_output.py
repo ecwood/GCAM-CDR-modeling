@@ -45,9 +45,30 @@ def get_CO2_removed(gcam_dict):
 					dactype = tech.get('@name', '')
 					tech_year = tech.get('@year', '')
 					tech_cost = combine_value_and_unit(tech.get('cost', {}))
-					tech_output = combine_value_and_unit(tech.get('output-primary', {}).get('physical-output', {}))
-					co2_removed.setdefault(region_name, {}).setdefault(dactype, {})[tech_year] = {'cost': tech_cost, 'output': tech_output}
+					tech_output = tech.get('output-primary', {}).get('physical-output', {})
+					if isinstance(tech_output, list):
+						tech_output_copy = tech_output
+						for list_year_item in tech_output_copy:
+							list_year = list_year_item['@vintage']
+							if tech_year == list_year:
+								tech_output = list_year_item
+								break
+					co2_removed.setdefault(region_name, {}).setdefault(dactype, {})[tech_year] = {'cost': tech_cost, 'output': combine_value_and_unit(tech_output)}
 	return co2_removed
+
+def get_carbon_prices(gcam_dict):
+	carbon_prices = {}
+	marketplace = gcam_dict['scenario']['world']['Marketplace']['market']
+	for market in marketplace:
+		if 'CO2' in market['@name']:
+			market_region = market.get('MarketRegion', '')
+			market_task = market.get('MarketGoodOrFuel', '')
+			market_year = market.get('@year', '')
+			price = combine_value_and_unit(market.get('price', {}))
+			supply = combine_value_and_unit(market.get('supply', {}))
+			demand = combine_value_and_unit(market.get('demand', {}))
+			carbon_prices.setdefault(market_region, {}).setdefault(market_task, {})[market_year] = {'price': price, 'supply': supply, 'demand': demand}
+	return carbon_prices
 
 if __name__ == '__main__':
 	print(get_date())
@@ -69,5 +90,6 @@ if __name__ == '__main__':
 	with open(output_file, 'w') as out_json:
 		co2_removed = get_CO2_removed(filedict)
 		temperature = get_temperature(filedict)
-		out_json.write(json.dumps({"CO2 Removed": co2_removed, "Temperature": temperature}, indent=4, sort_keys=True))
+		carbon_prices = get_carbon_prices(filedict)
+		out_json.write(json.dumps({"CO2 Removed": co2_removed, "Temperature": temperature, "Markets": carbon_prices}, indent=4, sort_keys=True))
 	print(get_date())
