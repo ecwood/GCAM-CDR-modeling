@@ -4,25 +4,25 @@
         <region name="AL">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -85,25 +85,25 @@
         <region name="AK">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -166,25 +166,25 @@
         <region name="AZ">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -247,25 +247,25 @@
         <region name="AR">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -328,25 +328,25 @@
         <region name="CA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -409,25 +409,25 @@
         <region name="CO">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -490,25 +490,25 @@
         <region name="CT">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -571,25 +571,25 @@
         <region name="DE">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -652,25 +652,25 @@
         <region name="DC">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -733,25 +733,25 @@
         <region name="FL">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -814,25 +814,25 @@
         <region name="GA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -895,25 +895,25 @@
         <region name="HI">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -976,25 +976,25 @@
         <region name="ID">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1057,25 +1057,25 @@
         <region name="IL">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1138,25 +1138,25 @@
         <region name="IN">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1219,25 +1219,25 @@
         <region name="IA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1300,25 +1300,25 @@
         <region name="KS">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1381,25 +1381,25 @@
         <region name="KY">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1462,25 +1462,25 @@
         <region name="LA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1543,25 +1543,25 @@
         <region name="ME">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1624,25 +1624,25 @@
         <region name="MD">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1705,25 +1705,25 @@
         <region name="MA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1786,25 +1786,25 @@
         <region name="MI">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1867,25 +1867,25 @@
         <region name="MN">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -1948,25 +1948,25 @@
         <region name="MS">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2029,25 +2029,25 @@
         <region name="MO">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2110,25 +2110,25 @@
         <region name="MT">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2191,25 +2191,25 @@
         <region name="NE">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2272,25 +2272,25 @@
         <region name="NV">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2353,25 +2353,25 @@
         <region name="NH">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2434,25 +2434,25 @@
         <region name="NJ">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2515,25 +2515,25 @@
         <region name="NM">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2596,25 +2596,25 @@
         <region name="NY">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2677,25 +2677,25 @@
         <region name="NC">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2758,25 +2758,25 @@
         <region name="ND">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2839,25 +2839,25 @@
         <region name="OH">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -2920,25 +2920,25 @@
         <region name="OK">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3001,25 +3001,25 @@
         <region name="OR">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3082,25 +3082,25 @@
         <region name="PA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3163,25 +3163,25 @@
         <region name="RI">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3244,25 +3244,25 @@
         <region name="SC">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3325,25 +3325,25 @@
         <region name="SD">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3406,25 +3406,25 @@
         <region name="TN">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3487,25 +3487,25 @@
         <region name="TX">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3568,25 +3568,25 @@
         <region name="UT">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3649,25 +3649,25 @@
         <region name="VT">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3730,25 +3730,25 @@
         <region name="VA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3811,25 +3811,25 @@
         <region name="WA">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3892,25 +3892,25 @@
         <region name="WV">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -3973,25 +3973,25 @@
         <region name="WI">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
@@ -4054,25 +4054,25 @@
         <region name="WY">
             <policy-portfolio-standard name="DAC-subsidy">
                 <market>USA</market>
-                <fixedTax year="2020">282.4714276</fixedTax>
-                <fixedTax year="2025">340.3778513</fixedTax>
-                <fixedTax year="2030">410.1550471</fixedTax>
-                <fixedTax year="2035">494.2365138</fixedTax>
-                <fixedTax year="2040">595.554616</fixedTax>
-                <fixedTax year="2045">717.6428507</fixedTax>
-                <fixedTax year="2050">864.7590789</fixedTax>
-                <fixedTax year="2055">1042.03402</fixedTax>
-                <fixedTax year="2060">1255.650186</fixedTax>
-                <fixedTax year="2065">1513.057501</fixedTax>
-                <fixedTax year="2070">1823.233116</fixedTax>
-                <fixedTax year="2075">2196.994492</fixedTax>
-                <fixedTax year="2080">2647.37666</fixedTax>
-                <fixedTax year="2085">3190.086823</fixedTax>
-                <fixedTax year="2090">3844.052149</fixedTax>
-                <fixedTax year="2095">4632.07986</fixedTax>
-                <fixedTax year="2100">5581.652641</fixedTax>
+                <fixedTax year="2020">0.1163720764</fixedTax>
+                <fixedTax year="2025">0.1402282618</fixedTax>
+                <fixedTax year="2030">0.1689749468</fixedTax>
+                <fixedTax year="2035">0.2036146799</fixedTax>
+                <fixedTax year="2040">0.2453555315</fixedTax>
+                <fixedTax year="2045">0.2956532253</fixedTax>
+                <fixedTax year="2050">0.3562619073</fixedTax>
+                <fixedTax year="2055">0.4292953221</fixedTax>
+                <fixedTax year="2060">0.5173005304</fixedTax>
+                <fixedTax year="2065">0.6233467382</fixedTax>
+                <fixedTax year="2070">0.7511323364</fixedTax>
+                <fixedTax year="2075">0.9051138832</fixedTax>
+                <fixedTax year="2080">1.090661528</fixedTax>
+                <fixedTax year="2085">1.314246296</fixedTax>
+                <fixedTax year="2090">1.583665767</fixedTax>
+                <fixedTax year="2095">1.908316022</fixedTax>
+                <fixedTax year="2100">2.299519328</fixedTax>
                 <policyType>subsidy</policyType>
-                <price-unit>1990$/tC</price-unit>
+                <price-unit>1975$/kg</price-unit>
             </policy-portfolio-standard>
             <supplysector name="CO2 removal">
                 <subsector name="dac">
