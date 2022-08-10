@@ -42,15 +42,18 @@ def strip_tech_blocks(data):
 
 if __name__ == '__main__':
 	args = get_args()
-	distributed_solar = load_json(args.inputFile)
-	output = strip_blocks(distributed_solar['output'])
-	cum_prod = strip_blocks(distributed_solar['sub-renewable-resource']['cumulative-production'])
-	max_annual_sub = strip_blocks(distributed_solar['sub-renewable-resource']['max-annual-subresource'])
-	prod = strip_blocks(distributed_solar['sub-renewable-resource']['production'])
-	tech = strip_tech_blocks(distributed_solar['sub-renewable-resource']['technology'])
-	save_dict = {'output': output,
-				 'cumulative-production': cum_prod,
-				 'max-annual-subresource': max_annual_sub,
-				 'production': prod,
-				 'technology': tech}
+	renewresources = load_json(args.inputFile)
+	save_dict = dict()
+	for renewresource in renewresources['renewresource']:
+		output = strip_blocks(renewresource['output'])
+		cum_prod = strip_blocks(renewresource['sub-renewable-resource']['cumulative-production'])
+		max_annual_sub = strip_blocks(renewresource['sub-renewable-resource']['max-annual-subresource'])
+		prod = strip_blocks(renewresource['sub-renewable-resource']['production'])
+		tech = strip_tech_blocks(renewresource['sub-renewable-resource']['technology'])
+		resource_dict = {'output': output,
+						 'cumulative-production': cum_prod,
+						 'max-annual-subresource': max_annual_sub,
+						 'production': prod,
+						 'technology': tech}
+		save_dict[renewresource['@name']] = resource_dict
 	save_json(save_dict, args.outputFile)
