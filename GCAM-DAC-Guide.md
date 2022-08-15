@@ -22,7 +22,8 @@ Instance Requirements:
 ### File Structure
 <!-- https://stackoverflow.com/questions/58828654/background-highlight-text-in-a-code-block -->
 <span style="background-color:yellow">This folder is the root of all CSV files.</span>
-<pre><code>.
+```
+.
 ├── CONTRIBUTING.md
 ├── cvs
 │    └── objects
@@ -66,10 +67,10 @@ Instance Requirements:
 │    │   ├── gcamdata.Rproj
 │    │   ├── inst
 │    │   │   ├── CITATION
-│    │   │   └── extdata </pre></code>:blue_square:<code><pre> This folder is the root of all CSV files. </pre></code>:blue_square:<code><pre>
+│    │   │   └── extdata 🟪 This folder is the root of all CSV files. 🟪
 │    │   │       ├── aglu
 │    │   │       ├── common
-│    │   │       ├── emissions </pre></code>:blue_square:<code><pre> This folder contains all of the DAC related data. </pre></code>:blue_square:<code><pre>
+│    │   │       ├── emissions 🟩 This folder contains all of the DAC related data. 🟩
 │    │   │       ├── energy
 │    │   │       │   ├── GIS
 │    │   │       │   └── mappings
@@ -117,9 +118,10 @@ Instance Requirements:
 └── util
     └── testing-framework
 ```
-</pre></code>
 `${GCAM_HOME}/gcam-core/input/gcamdata`
-:blue_square:
+
+Emoji's for adding color to documentation:
+🟥🟧🟨🟩🟦🟪
 
 ## What is a GCAM Scenario?
 
