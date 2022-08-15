@@ -21,7 +21,7 @@ Instance Requirements:
 
 ### File Structure
 <!-- https://stackoverflow.com/questions/58828654/background-highlight-text-in-a-code-block -->
-
+<span style="background-color:yellow">This folder is the root of all CSV files.</span>
 <pre><code>.
 ├── CONTRIBUTING.md
 ├── cvs
