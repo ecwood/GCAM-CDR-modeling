@@ -21,7 +21,7 @@ Instance Requirements:
 
 ### File Structure
 
-```
+```bash
 .
 ├── CONTRIBUTING.md
 ├── cvs
