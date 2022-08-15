@@ -21,6 +21,103 @@ Instance Requirements:
 
 ### File Structure
 
+```
+.
+├── CONTRIBUTING.md
+├── cvs
+│    └── objects
+│        ├── build
+│        ├── ccarbon_model
+│        ├── climate
+│        ├── configuration_files
+│        ├── consumers
+│        ├── containers
+│        ├── demographics
+│        ├── doxygen
+│        ├── emissions
+│        ├── functions
+│        ├── java
+│        ├── land_allocator
+│        ├── main
+│        ├── marketplace
+│        ├── parallel
+│        ├── policy
+│        ├── reporting
+│        ├── resources
+│        ├── sectors
+│        ├── solution
+│        ├── target_finder
+│        ├── technologies
+│        └── util
+├── exe
+│    ├── gcam.exe
+│    ├── logs
+│    └── restart
+├── input
+│    ├── climate
+│    ├── extra
+│    ├── gcamdata
+│    │   ├── chunk-generator
+│    │   ├── data
+│    │   ├── data-raw
+│    │   ├── DESCRIPTION
+│    │   ├── exec
+│    │   ├── figures
+│    │   ├── gcamdata.Rproj
+│    │   ├── inst
+│    │   │   ├── CITATION
+│    │   │   └── extdata
+│    │   │       ├── aglu
+│    │   │       ├── common
+│    │   │       ├── emissions
+│    │   │       ├── energy
+│    │   │       │   ├── GIS
+│    │   │       │   └── mappings
+│    │   │       ├── gcam-usa
+│    │   │       │   ├── emissions
+│    │   │       │   └── GIS
+│    │   │       │       └── README.md
+│    │   │       ├── mi_headers
+│    │   │       ├── ModelInterface
+│    │   │       ├── socioeconomics
+│    │   │       ├── tests
+│    │   │       └── water
+│    │   ├── LICENSE
+│    │   ├── man
+│    │   ├── NAMESPACE
+│    │   ├── R
+│    │   ├── README.md
+│    │   ├── renv
+│    │   ├── renv.lock
+│    │   ├── solution
+│    │   ├── tests
+│    │   ├── vignettes
+│    │   │   ├── driverdrake_vignette.Rmd
+│    │   │   └── usermod_vignette.Rmd
+│    │   └── xml
+│    ├── magicc
+│    ├── policy
+│    │   └── input-module
+│    └── solution
+├── LICENSE.md
+├── Makefile
+├── output
+│    ├── database_basexdb
+│    ├── gcam_diagnostics
+│    │   ├── batch_queries
+│    │   ├── gcam_data
+│    │   ├── logs
+│    │   ├── mappings
+│    │   ├── post_process
+│    │   ├── readme.md
+│    │   └── scripts
+│    ├── modelinterface
+│    └── queries
+├── README.md
+└── util
+    └── testing-framework
+```
+
 `${GCAM_HOME}/gcam-core/input/gcamdata`
 
 ## What is a GCAM Scenario?
@@ -31,6 +128,7 @@ Instance Requirements:
  - [DAC files](#dac-files)
 
 ### Configuration Files
+`policy-target-file`: This tag in the configuration file specifies what the main policy for the scenario will be. 
 
 ### Policy Files
 
