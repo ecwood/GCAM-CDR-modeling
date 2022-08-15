@@ -119,6 +119,7 @@ Instance Requirements:
 ```
 </pre></code>
 `${GCAM_HOME}/gcam-core/input/gcamdata`
+:blue_square:
 
 ## What is a GCAM Scenario?
 
