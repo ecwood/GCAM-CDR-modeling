@@ -22,7 +22,8 @@ Instance Requirements:
 ### File Structure
 <!-- https://stackoverflow.com/questions/58828654/background-highlight-text-in-a-code-block -->
 <span style="background-color:yellow">This folder is the root of all CSV files.</span>
-<pre><code>.
+```diff
+.
 ├── CONTRIBUTING.md
 ├── cvs
 │    └── objects
@@ -67,6 +68,8 @@ Instance Requirements:
 │    │   ├── inst
 │    │   │   ├── CITATION
 │    │   │   └── extdata <span style="background-color:yellow">This folder is the root of all CSV files.</span>
+! Test test
+@@ test test test @@
 │    │   │       ├── aglu
 │    │   │       ├── common
 │    │   │       ├── emissions <span style="background-color:yellow">This folder contains all of the DAC related data.</span>
@@ -116,7 +119,7 @@ Instance Requirements:
 ├── README.md
 └── util
     └── testing-framework
-</code></pre>
+```
 
 `${GCAM_HOME}/gcam-core/input/gcamdata`
 
