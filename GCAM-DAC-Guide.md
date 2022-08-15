@@ -50,7 +50,7 @@ Instance Requirements:
 │        ├── technologies
 │        └── util
 ├── exe
-│    ├── gcam.exe <span style="background-color:#8f72a6">This is the script you will run using `gcam.exe -C {configuration_file.xml}` </span>
+│    ├── gcam.exe
 │    ├── logs
 │    └── restart
 ├── input
@@ -66,10 +66,10 @@ Instance Requirements:
 │    │   ├── gcamdata.Rproj
 │    │   ├── inst
 │    │   │   ├── CITATION
-│    │   │   └── extdata <span style="background-color:#8f72a6">This folder is the root of all CSV files.</span>
+│    │   │   └── extdata <span style="background-color:yellow">This folder is the root of all CSV files.</span>
 │    │   │       ├── aglu
 │    │   │       ├── common
-│    │   │       ├── emissions <span style="background-color:#8f72a6">This folder contains all of the DAC related data.</span>
+│    │   │       ├── emissions <span style="background-color:yellow">This folder contains all of the DAC related data.</span>
 │    │   │       ├── energy
 │    │   │       │   ├── GIS
 │    │   │       │   └── mappings
