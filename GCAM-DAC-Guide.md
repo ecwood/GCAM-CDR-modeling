@@ -66,10 +66,10 @@ Instance Requirements:
 │    │   ├── gcamdata.Rproj
 │    │   ├── inst
 │    │   │   ├── CITATION
-│    │   │   └── extdata :blue_square: This folder is the root of all CSV files. :blue_square:
+│    │   │   └── extdata </pre></code>:blue_square:<code><pre> This folder is the root of all CSV files. </pre></code>:blue_square:<code><pre>
 │    │   │       ├── aglu
 │    │   │       ├── common
-│    │   │       ├── emissions :blue_square: This folder contains all of the DAC related data. :blue_square:
+│    │   │       ├── emissions </pre></code>:blue_square:<code><pre> This folder contains all of the DAC related data. </pre></code>:blue_square:<code><pre>
 │    │   │       ├── energy
 │    │   │       │   ├── GIS
 │    │   │       │   └── mappings
