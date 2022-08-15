@@ -20,9 +20,9 @@ Instance Requirements:
 ## Introduction to GCAM
 
 ### File Structure
+<!-- https://stackoverflow.com/questions/58828654/background-highlight-text-in-a-code-block -->
 
-```bash
-.
+<pre><code>.
 ├── CONTRIBUTING.md
 ├── cvs
 │    └── objects
@@ -50,7 +50,7 @@ Instance Requirements:
 │        ├── technologies
 │        └── util
 ├── exe
-│    ├── gcam.exe
+│    ├── gcam.exe <span style="background-color:#8f72a6">This is the script you will run using `gcam.exe -C {configuration_file.xml}` </span>
 │    ├── logs
 │    └── restart
 ├── input
@@ -66,10 +66,10 @@ Instance Requirements:
 │    │   ├── gcamdata.Rproj
 │    │   ├── inst
 │    │   │   ├── CITATION
-│    │   │   └── extdata
+│    │   │   └── extdata <span style="background-color:#8f72a6">This folder is the root of all CSV files.</span>
 │    │   │       ├── aglu
 │    │   │       ├── common
-│    │   │       ├── emissions
+│    │   │       ├── emissions <span style="background-color:#8f72a6">This folder contains all of the DAC related data.</span>
 │    │   │       ├── energy
 │    │   │       │   ├── GIS
 │    │   │       │   └── mappings
@@ -116,7 +116,7 @@ Instance Requirements:
 ├── README.md
 └── util
     └── testing-framework
-```
+</code></pre>
 
 `${GCAM_HOME}/gcam-core/input/gcamdata`
 
