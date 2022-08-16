@@ -175,7 +175,7 @@ Annotation Key:
 ├── README.md
 └── util
     └── testing-framework
-```
+</code></pre>
 
 Emoji's for adding color to documentation:
 🟥
