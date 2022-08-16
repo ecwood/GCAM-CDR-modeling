@@ -20,14 +20,20 @@ Instance Requirements:
 ## Introduction to GCAM
 
 ### File Structure
-```
+Annotation Key:
+ - 🟧: Base directory explanation
+ - 🟩: File explanation
+ - 🟦: Core directory explanation
+ - 🟪: Niche directory explanation
+
+<pre><code>
 .
 ├── CONTRIBUTING.md
 ├── cvs
-│    └── objects
+│    └── objects 🟧 This is the folder that contains all of the C++ source code that makes up the model. (This is the code that the model solves with.) 🟧
 │        ├── build
 │        ├── ccarbon_model
-│        ├── climate 🟪 🟪
+│        ├── climate 🟪 This is where the Hector related files are located. Hector is a separate PNNL package that makes up the climate backbone of GCAM. 🟪
 │        ├── configuration_files
 │        ├── consumers
 │        ├── containers
@@ -48,10 +54,14 @@ Instance Requirements:
 │        ├── target_finder
 │        ├── technologies
 │        └── util
-├── exe 🟧 🟧
+├── exe 🟧 This folder contains the files that a user uses to directly run the model at runtime. (i.e. in the run command) 🟧
+│    ├── configuration_policy.xml 🟩 This is an example scenario that shows how to create a configuration file that includes a policy. <a href="https://github.com/ecwood/GCAM-CDR-modeling/blob/main/GCAM-DAC-Guide.md#configuration-files">Configuration File</a> 🟩
+│    ├── configuration_ref.xml 🟩  🟩
+│    ├── configuration_ssp.xml 🟩 🟩
+│    ├── configuration_usa.xml 🟩 🟩
+│    ├── debug_db.xml 🟩 🟩
 │    ├── gcam.exe 🟩 🟩
 │    ├── logs
-│    ├── debug_db.xml 🟩 🟩
 │    └── restart
 ├── input 🟧 🟧
 │    ├── climate
@@ -70,7 +80,7 @@ Instance Requirements:
 │    │   │       ├── aglu
 │    │   │       ├── common
 │    │   │       ├── emissions
-│    │   │       ├── energy 🟪 This folder contains all of the global DAC related data. 🟪
+│    │   │       ├── energy 🟪 This folder contains all of the global DAC related data. The following files are DAC related files in this folder. 🟪
 │    │   │       │   ├── A62.calibration.csv 🟩 🟩
 │    │   │       │   ├── A62.demand.csv 🟩 🟩
 │    │   │       │   ├── A62.globaltech_co2capture.csv 🟩 🟩
