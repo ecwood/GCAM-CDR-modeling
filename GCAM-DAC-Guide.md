@@ -20,8 +20,6 @@ Instance Requirements:
 ## Introduction to GCAM
 
 ### File Structure
-<!-- https://stackoverflow.com/questions/58828654/background-highlight-text-in-a-code-block -->
-<span style="background-color:yellow">This folder is the root of all CSV files.</span>
 ```
 .
 ├── CONTRIBUTING.md
@@ -29,7 +27,7 @@ Instance Requirements:
 │    └── objects
 │        ├── build
 │        ├── ccarbon_model
-│        ├── climate
+│        ├── climate 🟪 🟪
 │        ├── configuration_files
 │        ├── consumers
 │        ├── containers
@@ -50,14 +48,15 @@ Instance Requirements:
 │        ├── target_finder
 │        ├── technologies
 │        └── util
-├── exe
-│    ├── gcam.exe
+├── exe 🟧 🟧
+│    ├── gcam.exe 🟩 🟩
 │    ├── logs
+│    ├── debug_db.xml 🟩 🟩
 │    └── restart
-├── input
+├── input 🟧 🟧
 │    ├── climate
 │    ├── extra
-│    ├── gcamdata
+│    ├── gcamdata 🟦 🟦
 │    │   ├── chunk-generator
 │    │   ├── data
 │    │   ├── data-raw
@@ -67,14 +66,38 @@ Instance Requirements:
 │    │   ├── gcamdata.Rproj
 │    │   ├── inst
 │    │   │   ├── CITATION
-│    │   │   └── extdata 🟪 This folder is the root of all CSV files. 🟪
+│    │   │   └── extdata 🟦 This folder is the root of all CSV files. 🟦
 │    │   │       ├── aglu
 │    │   │       ├── common
-│    │   │       ├── emissions 🟩 This folder contains all of the DAC related data. 🟩
-│    │   │       ├── energy
+│    │   │       ├── emissions
+│    │   │       ├── energy 🟪 This folder contains all of the global DAC related data. 🟪
+│    │   │       │   ├── A62.calibration.csv 🟩 🟩
+│    │   │       │   ├── A62.demand.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_co2capture.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_coef_ssp1.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_coef_ssp2.csv
+│    │   │       │   ├── A62.globaltech_coef_ssp3.csv
+│    │   │       │   ├── A62.globaltech_coef_ssp4.csv
+│    │   │       │   ├── A62.globaltech_coef_ssp5.csv
+│    │   │       │   ├── A62.globaltech_cost_ssp1.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_cost_ssp2.csv
+│    │   │       │   ├── A62.globaltech_cost_ssp3.csv
+│    │   │       │   ├── A62.globaltech_cost_ssp4.csv
+│    │   │       │   ├── A62.globaltech_cost_ssp5.csv
+│    │   │       │   ├── A62.globaltech_retirement.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_shrwt_ssp1.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_shrwt_ssp2.csv
+│    │   │       │   ├── A62.globaltech_shrwt_ssp3.csv
+│    │   │       │   ├── A62.globaltech_shrwt_ssp4.csv
+│    │   │       │   ├── A62.globaltech_shrwt_ssp5.csv
+│    │   │       │   ├── A62.PrimaryFuelCCoef.csv 🟩 🟩
+│    │   │       │   ├── A62.sector.csv 🟩 🟩
+│    │   │       │   ├── A62.subsector_interp.csv 🟩 🟩
+│    │   │       │   ├── A62.subsector_logit.csv 🟩 🟩
+│    │   │       │   ├── A62.subsector_shrwt.csv 🟩 🟩
 │    │   │       │   ├── GIS
 │    │   │       │   └── mappings
-│    │   │       ├── gcam-usa
+│    │   │       ├── gcam-usa 🟪 🟪
 │    │   │       │   ├── emissions
 │    │   │       │   └── GIS
 │    │   │       │       └── README.md
@@ -86,23 +109,48 @@ Instance Requirements:
 │    │   ├── LICENSE
 │    │   ├── man
 │    │   ├── NAMESPACE
-│    │   ├── R
+│    │   ├── R 🟦 🟦
+│    │   │   ├── zchunk_batch_dac_USA_xml.R 🟩 🟩
+│    │   │   ├── zchunk_batch_dac_xml.R 🟩 🟩
+│    │   │   ├── zchunk_L262.dac.R 🟩 🟩
+│    │   │   ├── zchunk_L262.dac_USA.R 🟩 🟩
+│    │   │   └── zchunk_LA162.dac.R 🟩 🟩
 │    │   ├── README.md
 │    │   ├── renv
 │    │   ├── renv.lock
 │    │   ├── solution
+│    │   │   └── cal_broyden_config.xml 🟩 🟩
 │    │   ├── tests
 │    │   ├── vignettes
-│    │   │   ├── driverdrake_vignette.Rmd
-│    │   │   └── usermod_vignette.Rmd
-│    │   └── xml
+│    │   │   ├── driverdrake_vignette.Rmd 🟩 🟩
+│    │   │   └── usermod_vignette.Rmd 🟩 🟩
+│    │   └── xml 🟦 🟦
+│    │   │   ├── dac_ssp1.xml 🟩 🟩
+│    │   │   ├── dac_ssp2.xml
+│    │   │   ├── dac_ssp3.xml
+│    │   │   ├── dac_ssp4.xml
+│    │   │   ├── dac_ssp5.xml
+│    │   │   ├── dac_USA_ssp1.xml 🟩 🟩
+│    │   │   ├── dac_USA_ssp2.xml
+│    │   │   ├── dac_USA_ssp3.xml
+│    │   │   ├── dac_USA_ssp4.xml
+│    │   │   └── dac_USA_ssp5.xml
 │    ├── magicc
-│    ├── policy
+│    ├── policy 🟦 🟦
+│    │   ├── 2025_target_finder_phasein.xml 🟩 🟩
+│    │   ├── 2025_target_finder.xml 🟩 🟩
+│    │   ├── carbon_tax_0_nearterm.xml 🟩 🟩
+│    │   ├── carbon_tax_15_5.xml 🟩 🟩
+│    │   ├── forcing_target_4p5.xml 🟩 🟩
+│    │   ├── ghg_link_global.xml 🟩 🟩
+│    │   ├── spa14_tax.xml 🟩 🟩
+│    │   ├── states_policy_global.xml 🟩 🟩
+│    │   ├── states_policy_USA.xml 🟩 🟩
 │    │   └── input-module
 │    └── solution
 ├── LICENSE.md
-├── Makefile
-├── output
+├── Makefile 🟩 🟩
+├── output 🟧 🟧
 │    ├── database_basexdb
 │    ├── gcam_diagnostics
 │    │   ├── batch_queries
@@ -118,10 +166,14 @@ Instance Requirements:
 └── util
     └── testing-framework
 ```
-`${GCAM_HOME}/gcam-core/input/gcamdata`
 
 Emoji's for adding color to documentation:
-🟥🟧🟨🟩🟦🟪
+🟥
+🟧: Base directory explanation
+🟨
+🟩: File explanation
+🟦: Core directory explanation
+🟪: Niche directory explanation
 
 ## What is a GCAM Scenario?
 
