@@ -27,7 +27,7 @@ Annotation Key:
  - 🟪: Niche directory explanation
 
 ```
-.
+gcam-core
 ├── CONTRIBUTING.md
 ├── cvs
 │    └── objects 🟧 This is the folder that contains all of the C++ source code that makes up the model. 🟧
@@ -58,14 +58,21 @@ Annotation Key:
 │        └── util
 ├── exe 🟧 This folder contains the files that a user uses to directly run the model at runtime. 🟧
 │    │  🟧 (i.e. in the run command) 🟧
+│    │
 │    ├── configuration_policy.xml 🟩 This is an example scenario that shows how to create a configuration 🟩
 │    │                            🟩 file that includes a policy. 🟩
+│    │
 │    ├── configuration_ref.xml 🟩 This is the base example scenario configuration file. 🟩
+│    │
 │    ├── configuration_ssp.xml 🟩 This is a partial example scenario (it seems incomplete). Avoid using it. 🟩
+│    │
 │    ├── configuration_usa.xml 🟩 This is an example configuration file for a GCAM-USA scenario. 🟩
+│    │
 │    ├── debug_db.xml 🟩 This is the XML dump file of the databasexdb/modelinterface output format. 🟩
+│    │
 │    ├── gcam.exe 🟩 This is the user accessible run point of the model. Run through the command 🟩
 │    │            🟩 `gcam.exe -C {configuration_file.xml}` 🟩
+│    │
 │    ├── logs 🟪 This folder contains partial logs (split among many files) of the debug_db.xml. It is unlikely you 🟪
 │    │        🟪 will have to use it much if you know how to process debug_db.xml. 🟪
 │    └── restart
@@ -90,39 +97,66 @@ Annotation Key:
 │    │   │       ├── emissions
 │    │   │       ├── energy 🟪 This folder contains all of the global DAC related data. The following files are DAC 🟪
 │    │   │       │   │      🟪 related files in this folder. 🟪
+│    │   │       │   │
 │    │   │       │   ├── A62.calibration.csv 🟩 This file contains the calibration values for the CO2 removal sector 🟩
 │    │   │       │   │                       🟩 (which includes DAC technologies and "no DAC") in 2015, globally. Due 🟩
 │    │   │       │   │                       🟩 to the lack of deployment in 2015, all of this goes to "no DAC". 🟩
+│    │   │       │   │
 │    │   │       │   ├── A62.demand.csv 🟩 This file contains the boolean for the type of deployment function for DAC 🟩
 │    │   │       │   │                  🟩 (per-capita or per-GDP, the default) and price elasticity. 🟩
+│    │   │       │   │
 │    │   │       │   ├── A62.globaltech_co2capture.csv 🟩 This file sets the percent of CO2 capture rates for the 🟩
 │    │   │       │   │                                 🟩  different DAC technologies and CCS. 🟩
+│    │   │       │   │
 │    │   │       │   ├── A62.globaltech_coef_ssp1.csv 🟩 This file sets the efficiency rates (EJ/Mt C) at 1971, 2020, 🟩
-│    │   │       │   │                                🟩 2050, and 2100 for different electricity sources by DAC source. 🟩
-│    │   │       │   │                                🟩 This is for SSP1, but SSP's 2-5 are similarly below. 🟩
+│    │   │       │   │                                🟩 2050, and 2100 for different electricity sources by DAC 🟩
+│    │   │       │   │                                🟩 source. This is for SSP1, but SSP's 2-5 are similarly below. 🟩
 │    │   │       │   ├── A62.globaltech_coef_ssp2.csv
 │    │   │       │   ├── A62.globaltech_coef_ssp3.csv
 │    │   │       │   ├── A62.globaltech_coef_ssp4.csv
 │    │   │       │   ├── A62.globaltech_coef_ssp5.csv
-│    │   │       │   ├── A62.globaltech_cost_ssp1.csv 🟩 This file  🟩
+│    │   │       │   ├── A62.globaltech_cost_ssp1.csv 🟩 This file sets the default non-energy costs per kgC (or GJ 🟩
+│    │   │       │   │                                🟩 for CCS) for DAC in 1975$ in 1971, 2020, 2050, 2100. 🟩
 │    │   │       │   ├── A62.globaltech_cost_ssp2.csv
 │    │   │       │   ├── A62.globaltech_cost_ssp3.csv
 │    │   │       │   ├── A62.globaltech_cost_ssp4.csv
 │    │   │       │   ├── A62.globaltech_cost_ssp5.csv
-│    │   │       │   ├── A62.globaltech_retirement.csv 🟩 🟩
-│    │   │       │   ├── A62.globaltech_shrwt_ssp1.csv 🟩 🟩
+│    │   │       │   ├── A62.globaltech_retirement.csv 🟩 This file sets values for DAC plant retirements. It sets 🟩
+│    │   │       │   │                                 🟩 the lifetime of a plant, the portion of a DAC cohort retired 🟩
+│    │   │       │   │                                 🟩 per year, the half life (when 50% of the cohort is etired), 🟩
+│    │   │       │   │                                 🟩 the steepness to be used by the s-curve retirement funciton, 🟩
+│    │   │       │   │                                 🟩 profit ratio where 50% of cohort is shut down for lack of 🟩
+│    │   │       │   │                                 🟩 profit, and a steepness parameter for the profit based 🟩
+│    │   │       │   │                                 🟩 shutdown function. 🟩
+│    │   │       │   │
+│    │   │       │   ├── A62.globaltech_shrwt_ssp1.csv 🟩 This file sets the default shareweights for each DAC 🟩
+│    │   │       │   │                                 🟩 technology and CCS in 1971, 2019, 2020, 2050, 2100. This 🟩
+│    │   │       │   │                                 🟩 sets how DAC is phased into the technological landscape. 🟩
+│    │   │       │   │                                 🟩 This is the file specific to SSP1, but the others are below. 🟩
 │    │   │       │   ├── A62.globaltech_shrwt_ssp2.csv
 │    │   │       │   ├── A62.globaltech_shrwt_ssp3.csv
 │    │   │       │   ├── A62.globaltech_shrwt_ssp4.csv
 │    │   │       │   ├── A62.globaltech_shrwt_ssp5.csv
-│    │   │       │   ├── A62.PrimaryFuelCCoef.csv 🟩 🟩
-│    │   │       │   ├── A62.sector.csv 🟩 🟩
-│    │   │       │   ├── A62.subsector_interp.csv 🟩 🟩
-│    │   │       │   ├── A62.subsector_logit.csv 🟩 🟩
-│    │   │       │   ├── A62.subsector_shrwt.csv 🟩 🟩
+│    │   │       │   ├── A62.PrimaryFuelCCoef.csv 🟩 This sets the emissions factor for airCO2 (which is the input 🟩
+│    │   │       │   │                            🟩 to DAC). 🟩
+│    │   │       │   │
+│    │   │       │   ├── A62.sector.csv 🟩 This file sets the input units, output units, and price units for DAC and CCS. 🟩
+│    │   │       │   │                  🟩 It also sets the logit exponents for these technologies. 🟩
+│    │   │       │   │
+│    │   │       │   ├── A62.subsector_interp.csv 🟩 This file sets the interpolation method for the DAC and CSS 🟩
+│    │   │       │   │                            🟩 shareweights from the final calibration year (or other input 🟩
+│    │   │       │   │                            🟩 year) to the end year (for other input ending year). In the 🟩
+│    │   │       │   │                            🟩 default file, this value is set to fixed. 🟩
+│    │   │       │   │
+│    │   │       │   ├── A62.subsector_logit.csv 🟩 This sets the default logit exponents for the overall DAC sector 🟩
+│    │   │       │   │                           🟩 ("CO2 removal"), process heat dac (CCS), and airCO2. 🟩
+│    │   │       │   │
+│    │   │       │   ├── A62.subsector_shrwt.csv 🟩 This sets the default shareweights exponents for the overall DAC 🟩
+│    │   │       │   │                           🟩 sector ("CO2 removal"), process heat dac (CCS), and airCO2. 🟩
 │    │   │       │   ├── GIS
 │    │   │       │   └── mappings
-│    │   │       ├── gcam-usa 🟪 🟪
+│    │   │       ├── gcam-usa 🟪 This folder contains all of the GCAM-USA related CSV files. As far as I can tell, 🟪
+│    │   │       │   │        🟪 there are no files regarding DAC in this folder. 🟪
 │    │   │       │   ├── emissions
 │    │   │       │   └── GIS
 │    │   │       │       └── README.md
@@ -134,11 +168,19 @@ Annotation Key:
 │    │   ├── LICENSE
 │    │   ├── man
 │    │   ├── NAMESPACE
-│    │   ├── R 🟦 🟦
-│    │   │   ├── zchunk_batch_dac_USA_xml.R 🟩 🟩
-│    │   │   ├── zchunk_batch_dac_xml.R 🟩 🟩
+│    │   ├── R 🟦 This folder contains all of the R scripts used to generate the XML model inputs. The files below 🟦
+│    │   │   │ 🟦 are those used to generate the DAC XML files. 🟦
+│    │   │   │
+│    │   │   ├── zchunk_batch_dac_USA_xml.R 🟩 This script generates the dac_USA_ssp[1-5].xml files. It gets data 🟩
+│    │   │   │                              🟩 from a variety of other inputs, triggering them to be generated. 🟩
+│    │   │   │
+│    │   │   ├── zchunk_batch_dac_xml.R 🟩 This script generates dac_ssp[1-5].xml. It gets data from a variety 🟩
+│    │   │   │                          🟩 of other inputs, triggering them to be generated. 🟩
+│    │   │   │
 │    │   │   ├── zchunk_L262.dac.R 🟩 🟩
+│    │   │   │
 │    │   │   ├── zchunk_L262.dac_USA.R 🟩 🟩
+│    │   │   │
 │    │   │   └── zchunk_LA162.dac.R 🟩 🟩
 │    │   ├── README.md
 │    │   ├── renv
@@ -148,8 +190,10 @@ Annotation Key:
 │    │   ├── tests
 │    │   ├── vignettes
 │    │   │   ├── driverdrake_vignette.Rmd 🟩 🟩
+│    │   │   │
 │    │   │   └── usermod_vignette.Rmd 🟩 🟩
 │    │   └── xml 🟦 🟦
+│    │   │   │
 │    │   │   ├── dac_ssp1.xml 🟩 🟩
 │    │   │   ├── dac_ssp2.xml
 │    │   │   ├── dac_ssp3.xml
@@ -159,22 +203,32 @@ Annotation Key:
 │    │   │   ├── dac_USA_ssp2.xml
 │    │   │   ├── dac_USA_ssp3.xml
 │    │   │   ├── dac_USA_ssp4.xml
-│    │   │   └── dac_USA_ssp5.xml
+│    │   │   ├── dac_USA_ssp5.xml
+│    │   │   └── modeltime.xml
 │    ├── magicc
 │    ├── policy 🟦 🟦
 │    │   ├── 2025_target_finder_phasein.xml 🟩 🟩
+│    │   │
 │    │   ├── 2025_target_finder.xml 🟩 🟩
+│    │   │
 │    │   ├── carbon_tax_0_nearterm.xml 🟩 🟩
+│    │   │
 │    │   ├── carbon_tax_15_5.xml 🟩 🟩
+│    │   │
 │    │   ├── forcing_target_4p5.xml 🟩 🟩
+│    │   │
 │    │   ├── ghg_link_global.xml 🟩 🟩
+│    │   │
 │    │   ├── spa14_tax.xml 🟩 🟩
+│    │   │
 │    │   ├── states_policy_global.xml 🟩 🟩
+│    │   │
 │    │   ├── states_policy_USA.xml 🟩 🟩
 │    │   └── input-module
 │    └── solution
 ├── LICENSE.md
 ├── Makefile 🟩 🟩
+│
 ├── output 🟧 🟧
 │    ├── database_basexdb
 │    ├── gcam_diagnostics
@@ -192,7 +246,16 @@ Annotation Key:
     └── testing-framework
 ```
 
-Emoji's for adding color to documentation: 🟥🟨
+R DAC File Mapping:
+File | Inputs | Outputs
+-- | -- | --
+zchunk_L262.dac_USA.R | gcam-usa/states_subregions.csv <br> gcam-usa/Dooley_CCS_USA.csv <br> energy/calibrated_techs_cdr.csv <br> energy/A62.demand.csv <br> L262.CarbonCoef_dac <br> L262.GlobalTechCoef_dac <br> L262.Supplysector_dac <br> L262.FinalEnergyKeyword_dac <br> L262.SubsectorLogit_dac <br> L262.SubsectorShrwtFllt_dac <br> L262.SubsectorInterp_dac <br> L262.StubTech_dac <br> L262.PerCapitaBased_dac <br> L262.PriceElasticity_dac <br> L262.StubTechProd_dac | L262.DeleteSupplysector_USAdac <br> L262.DeleteFinalDemand_USAdac <br> L262.StubTechCoef_dac_USA_ssp1 <br> L262.StubTechCoef_dac_USA_ssp2 <br> L262.StubTechCoef_dac_USA_ssp3 <br> L262.StubTechCoef_dac_USA_ssp4 <br> L262.StubTechCoef_dac_USA_ssp5 <br> L262.SubsectorLogit_dac_USA <br> L262.SubsectorShrwtFllt_dac_USA <br> L262.SubsectorInterp_dac_USA <br> L262.StubTech_dac_USA <br> L262.PerCapitaBased_dac_USA <br> L262.PriceElasticity_dac_USA <br> L262.FinalEnergyKeyword_dac_USA <br> L262.BaseService_dac_USA <br> L262.Supplysector_dac_USA <br> L262.StubTechProd_dac_USA <br> L262.CarbonCoef_dac_USA
+zchunk_L262.dac.R | common/GCAM_region_names.csv <br> energy/calibrated_techs_cdr.csv <br> energy/A62.PrimaryFuelCCoef.csv <br> energy/A62.sector.csv <br> energy/A62.subsector_interp.csv <br> energy/A62.subsector_logit.csv <br> energy/A62.subsector_shrwt.csv <br> energy/A62.globaltech_coef_ssp1.csv <br> energy/A62.globaltech_coef_ssp2.csv <br> energy/A62.globaltech_coef_ssp3.csv <br> energy/A62.globaltech_coef_ssp4.csv <br> energy/A62.globaltech_coef_ssp5.csv <br> energy/A62.globaltech_cost_ssp1.csv <br> energy/A62.globaltech_cost_ssp2.csv <br> energy/A62.globaltech_cost_ssp3.csv <br> energy/A62.globaltech_cost_ssp4.csv <br> energy/A62.globaltech_cost_ssp5.csv <br> energy/A62.globaltech_shrwt_ssp1.csv <br> energy/A62.globaltech_shrwt_ssp2.csv <br> energy/A62.globaltech_shrwt_ssp3.csv <br> energy/A62.globaltech_shrwt_ssp4.csv <br> energy/A62.globaltech_shrwt_ssp5.csv <br> energy/A62.globaltech_co2capture.csv <br> energy/A62.demand.csv <br> energy/A62.globaltech_retirement.csv <br> L162.out_Mt_R_dac_Yh | L262.CarbonCoef_dac <br> L262.Supplysector_dac <br> L262.FinalEnergyKeyword_dac <br> L262.SubsectorLogit_dac <br> L262.SubsectorShrwtFllt_dac <br> L262.SubsectorInterp_dac <br> L262.GlobalTechCost_dac <br> L262.GlobalTechCost_dac_ssp1 <br> L262.GlobalTechCost_dac_ssp2 <br> L262.GlobalTechCost_dac_ssp3 <br> L262.GlobalTechCost_dac_ssp4 <br> L262.GlobalTechCost_dac_ssp5 <br> L262.StubTech_dac <br> L262.GlobalTechShrwt_dac <br> L262.GlobalTechShrwt_dac_ssp1 <br> L262.GlobalTechShrwt_dac_ssp2 <br> L262.GlobalTechShrwt_dac_ssp3 <br> L262.GlobalTechShrwt_dac_ssp4 <br> L262.GlobalTechCoef_dac_ssp5 <br> L262.GlobalTechCapture_dac <br> L262.PerCapitaBased_dac <br> L262.PriceElasticity_dac <br> L262.StubTechProd_dac <br> L262.BaseService_dac <br> L262.GlobalTechSCurve_dac <br> L262.GlobalTechProfitShutdown_dac
+zchunk_batch_dac_USA_xml.R | L262.DeleteSupplysector_USAdac <br> L262.Supplysector_dac_USA <br> L262.FinalEnergyKeyword_dac_USA <br> L262.SubsectorLogit_dac_USA <br> L262.SubsectorShrwtFllt_dac_USA <br> L262.SubsectorInterp_dac_USA <br> L262.StubTech_dac_USA <br> L262.PerCapitaBased_dac_USA <br> L262.PriceElasticity_dac_USA <br> L262.DeleteFinalDemand_USAdac <br> L262.StubTechProd_dac_USA <br> L262.StubTechCoef_dac_USA_ssp1 <br> L262.StubTechCoef_dac_USA_ssp2 <br> L262.StubTechCoef_dac_USA_ssp3 <br> L262.StubTechCoef_dac_USA_ssp4 <br> L262.StubTechCoef_dac_USA_ssp5 <br> L262.BaseService_dac_USA <br> L262.CarbonCoef_dac_USA | dac_USA_ssp1.xml <br> dac_USA_ssp2.xml <br> dac_USA_ssp3.xml <br> dac_USA_ssp4.xml <br> dac_USA_ssp5.xml
+zchunk_batch_dac_xml.R | L262.CarbonCoef_dac <br> L262.Supplysector_dac <br> L262.FinalEnergyKeyword_dac <br> L262.SubsectorLogit_dac <br> L262.SubsectorShrwtFllt_dac <br> L262.SubsectorInterp_dac <br> L262.StubTech_dac <br> L262.GlobalTechShrwt_dac <br> L262.GlobalTechShrwt_dac <br> L262.GlobalTechCoef_dac <br> L262.GlobalTechCost_dac <br> L262.GlobalTechCapture_dac <br> L262.StubTechProd_dac <br> L262.PerCapitaBased_dac <br> L262.BaseService_dac <br> L262.PriceElasticity_dac <br> L262.GlobalTechSCurve_dac <br> L262.GlobalTechProfitShutdown_dac | dac_ssp1.xml <br> dac_ssp2.xml <br> dac_ssp3.xml <br> dac_ssp4.xml <br> dac_ssp5.xml
+zchunk_LA162.dac.R | energy/A62.calibration.csv | L162.out_Mt_R_dac_Yh
+
+Emojis for adding color to documentation: 🟥🟨
 
 ## What is a GCAM Scenario?
 
@@ -211,3 +274,9 @@ Emoji's for adding color to documentation: 🟥🟨
 ## Debugging Tips
  - You will likely need to reference the [documentation](http://jgcri.github.io/gcam-doc/) frequently. Utilize the search function on [gcam-doc](https://github.com/JGCRI/gcam-doc/) if you are trying to find something.
  - Be careful editing the `CSV` files. Things can get out of hand quickly due to the cross references between them.
+
+
+
+
+
+ 
