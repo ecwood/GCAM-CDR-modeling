@@ -17,6 +17,7 @@ SIZE_UNITS = {'t': 1, 'kg': 0.001, 'Mt': 1000000}
 
 C_TO_CO2 = 0.2729214479
 
+#'hightemp DAC NG'
 DAC_TECHS = ['hightemp DAC NG', 'hightemp DAC elec', 'lowtemp DAC heatpump']
 
 STATES  = ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA', 'HI',
