@@ -53,6 +53,11 @@ def save_xml(out_dict, output_file):
 
 def calculate_45Q_levels(initial_value, inflation_rate, starting_year, output_price_year, output_size_unit):
 	subsidy_dict = dict()
+
+	# For BAU 
+	# 37.57272727 is average of 45Q from 2020-2024
+#	subsidy_dict[2020] = SIZE_UNITS[output_size_unit] * 37.57272727 / C_TO_CO2 / INFLATION_RATES[output_price_year]
+
 	## Are units kgC or kgCO2??!!!
 	## ASSUMING C:
 	initial_value = initial_value / C_TO_CO2
